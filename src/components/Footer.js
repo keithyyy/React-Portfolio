@@ -12,13 +12,13 @@ const Footer = () => {
                 <div className="container-fluid">
 
                     <div className="text-center center-block">
-                        <a href="" className="github-icon">
+                        <a href="/#" className="github-icon">
                             <FontAwesomeIcon icon={faGithubSquare}/>
                         </a>
-                        <a href="" className="twitter-icon">
+                        <a href="/#" className="twitter-icon">
                             <FontAwesomeIcon icon={faTwitterSquare}/>
                         </a>
-                        <a href="" className="linkedin-icon">
+                        <a href="/#" className="linkedin-icon">
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
                     </div>

@@ -1,12 +1,9 @@
-import Header from "./components/Header"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import Home from "./pages/Home"
 import { BrowserRouter as Router, Route } from "react-router-dom"
 
 function App() {
-  
-  const title = "Welcome!"
   
   return (
 
@@ -18,7 +15,7 @@ function App() {
         
       </div>
 
-
+      
     </Router>
       
   );
