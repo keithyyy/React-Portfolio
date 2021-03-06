@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Window Shoppin'",
+        "image": "../../screenshots/WindowShoppinSS.png",
+        "description": "Shop online and save items into a central cart to be price watched automatically.",
+        "github": "https://github.com/keithyyy/WindowShoppin",
+        "website": "window-shoppin.herokuapp.com/"
+    },
+    {
+        "id": 2,
+        "name": "FromScratch",
+        "image": "../../screenshots/FromScratchSS.png",
+        "description": "Discover new recipes from all around the world. Learn how to cook them in the easiest way possible.",
+        "github": "https://github.com/akwanmtl/From-Scratch",
+        "website": "akwanmtl.github.io/from-scratch/"
+    },
+    {
+        "id": 3,
+        "name": "Budget Tracker",
+        "image": "../../screenshots/BudgetTrackerSS.png",
+        "description": "Find out how much spending money you have. Track your cash flow and start saving!",
+        "github": "https://github.com/keithyyy/BudgetTracker",
+        "website": "https://whispering-temple-53065.herokuapp.com/"
+    },
+    {
+        "id": 4,
+        "name": "Klimate Keith",
+        "image": "../../screenshots/KlimateKeithSS.png",
+        "description": "Get your 5-day weather forecast for any location in the world!",
+        "github": "https://github.com/keithyyy/WeatherDash",
+        "website": "https://keithyyy.github.io/WeatherDash/"
+    },
+    {
+        "id": 5,
+        "name": "Keith Kode Kuiz",
+        "image": "../../screenshots/QuizSS2.png",
+        "description": "Test you coding knowledge with Keith Kode Kuiz. ",
+        "github": "https://github.com/keithyyy/KeithKodeKuiz",
+        "website": "https://keithyyy.github.io/KeithKodeKuiz/"
+    },
+    {
+        "id": 6,
+        "name": "Password Generator",
+        "image": "../../screenshots/PasswordGeneratorScreenshot.png",
+        "description": "Need a new password? Create a new and secure one with this code generator!",
+        "github": "https://github.com/keithyyy/PasswordGenerator",
+        "website": "https://keithyyy.github.io/PasswordGenerator/"
+    }   
+]
