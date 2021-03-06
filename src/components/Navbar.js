@@ -1,7 +1,11 @@
 import React from 'react'
+import { Link, useLocation } from "react-router-dom"
 import "bootstrap/js/src/collapse"
 
 const Navbar = () => {
+
+    const location = useLocation();
+
     return (
         <div>
 
@@ -16,14 +20,21 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarToggler">
                     
                     <ul className="navbar-nav mt-2 ml-auto mt-lg-0">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="/#">Home <span className="sr-only">(current)</span></a>
+                    <li className="nav-item">
+                        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                            Home
+                        </Link>
+                        
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/#">Projects</a>
+                        <Link to="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
+                            Projects
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/#">Contact</a>
+                        <Link to="/" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+                            Contact
+                        </Link>
                     </li>
                     </ul>
                 </div>

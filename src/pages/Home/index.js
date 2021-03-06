@@ -4,17 +4,17 @@ import profilepic from "../../assets/HeadshotSQ.jpg"
 import './home.css'
 
 
-const Home = ({ title }) => {
+const Home = () => {
 
-    title = "About Me"
+    
 
     return (
         <div>
-            <Header title={title} />
+            <Header title="About Me"/>
 
             <div className="row">
                 <div className="col-md-6">
-
+                    
                     <img src={profilepic} className="profilepic" id="profilepic"></img>
 
                 </div>
