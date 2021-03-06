@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({ title }) => {
     return (
-        <nav className="navbar navbar-expand-lg bg-dark">
-            <a className="navbar-brand">Keith Crooc</a>
-        </nav>
+        <div className="pageTitle">
+            <h1>{title}</h1>
+        </div>
     )
 }
 
