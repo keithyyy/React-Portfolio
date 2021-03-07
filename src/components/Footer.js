@@ -7,25 +7,25 @@ const Footer = () => {
         
         <footer className="footer">
 
-            <nav className="navbar navbar-default navbar-custom">
+            
                 
-                <div className="container-fluid">
+                <div className="container">
 
                     <div className="text-center center-block">
-                        <a href="/#" className="github-icon">
+                        <a href="https://github.com/keithyyy" className="icon" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faGithubSquare}/>
                         </a>
-                        <a href="/#" className="twitter-icon">
+                        <a href="https://twitter.com/codenamekeith" className="icon" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faTwitterSquare}/>
                         </a>
-                        <a href="/#" className="linkedin-icon">
+                        <a href="https://linkedin.com/in/keith-crooc" className="icon" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
                     </div>
 
                 </div>
 
-            </nav>
+            
 
         </footer>
             

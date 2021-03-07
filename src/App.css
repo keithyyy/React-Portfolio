@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background-color: transparent;
+    font-size: 35px
+
+}
+
+.navbar-brand {
+    font-family: 'Taviraj', serif;
+    font-weight: 700;
+    color: black;
+    font-size: 35px;
+}
+
+.nav-link {
+    font-family: 'Taviraj', serif;
+    font-weight: 400;
+    color: black;
+}
+
+.nav-link:hover {
+    color: green
+}
+
+.pageTitle {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.contactButtons {
+    display: flex;
+    align-content: center;
+}
+
+.profilepic {
+    border-radius: 100%;
+    margin-bottom: 10px
+}
+
+.icon {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 40px
+}
+
+.icon:hover {
+
+}
+
+.footer {
+    margin-top: 50px;
+    left: 45%;
+    text-align: center
+
+}

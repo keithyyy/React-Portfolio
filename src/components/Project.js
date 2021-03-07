@@ -8,9 +8,9 @@ const Project = (props) => {
                 </div>
                 <hr/>
                 <div className="card-body">
-                    <div className="row">
+                    <div className="row text-center">
                         <div className="col-md-12">
-                            <img alt={props.name + 'screenshot'} src={props.image} style={{width: "100%", display: "flex", justifyContent: "center"}}/>
+                            <img className="screenshot" alt={props.name + 'screenshot'} src={props.image} />
                         </div>
                     </div>
                     <hr/>
@@ -19,10 +19,12 @@ const Project = (props) => {
                             <p className="description">{props.description}</p>
                         </div>
                     </div>
-                    <div className="row"> 
-                        <a href={props.github} className="btn btn-info" role="button" target="_blank">Github</a>
-                    
-                        <a href={props.website} className="btn btn-info" role="button" target="_blank">Website</a>
+                    <div className="row">
+                        <div className="col text-center">
+                        <a id="Github" href={props.github} className="btn btn-info mx-3" role="button" target="_blank">Github</a>
+                        <a id="Website" href={props.website} className="btn btn-info mx-3" role="button" target="_blank">Website</a>
+                        </div> 
+                        
         
                     </div>
                     

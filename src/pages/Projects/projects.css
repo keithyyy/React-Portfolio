@@ -1,0 +1,30 @@
+
+
+.card-title {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 150%;
+}
+
+.screenshot {
+    width: 80%;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+
+#Github {
+    width: 30%;
+    background-color: black;
+    
+}
+
+#Website {
+    width: 30%;
+    background-color: green
+}
