@@ -9,8 +9,8 @@ const Navbar = () => {
     return (
         <div>
 
-            <nav className="navbar navbar-expand-lg bg-light">
-                <a className="navbar-brand" href="/#">Keith Crooc</a>
+            <nav className="navbar navbar-expand-lg bg-transparent py-4">
+                <a className="navbar-brand" href="/#" style={{fontSize: "35px"}}>Keith Crooc</a>
                 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -31,11 +31,7 @@ const Navbar = () => {
                             Projects
                         </Link>
                     </li>
-                    <li className="nav-item">
-                        <Link to="/" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
-                            Contact
-                        </Link>
-                    </li>
+
                     </ul>
                 </div>
             </nav>
