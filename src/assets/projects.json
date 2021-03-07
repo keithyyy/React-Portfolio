@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Window Shoppin'",
-        "image": "../../screenshots/WindowShoppinSS.png",
+        "image": "./screenshots/WindowShoppinSS.png",
         "description": "Shop online and save items into a central cart to be price watched automatically.",
         "github": "https://github.com/keithyyy/WindowShoppin",
         "website": "window-shoppin.herokuapp.com/"

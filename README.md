@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Responsive Portfolio built with React!
 
-## Available Scripts
+### Screenshot
+![Demo screenshot 1](/src/assets/PortfolioSS.png)
+  
 
-In the project directory, you can run:
+## Contents
 
-### `npm start`
+1. [Contents](#contents)
+2. [Screenshot](#screenshot)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [License](#license)
+6. [Questions](#questions)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
+To install application locally download repo and run `npm install` to install all dependencies. Run `npm start` to start application. Open browser at provided link.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Deployed application can be accessed at [https://keithcrooc-react-portfolio.herokuapp.com/#/](https://keithcrooc-react-portfolio.herokuapp.com/#/)
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When you navigate to the site, you will have the option to read an overview in the "How It Works" section, which provides a high-level overview of what you can do with the site. 
 
-### `npm run build`
+Clicking on `Go Shoppin'` will take you to a login page. If you do not have an account, you may sign up with your email address and a password.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+URLFrom there you will be taken to your "dashboard", where you will find a field which allows you to enter an item URL to "Track your shoppin' favorites". When you find an item somewhere else on the internet you would like to save, simply **copy** the URL of that item, **paste** it into the "Add Item URL" field on the *Window Shoppin'* site and click `Add Item`. Behind the scenes, *Window Shoppin'* retrieves useful data about that item (name, description, photo, price, date added) and stores it in your personal shopping cart database. The item will be displayed on your dashboard. Add as many as you wish. If you log out and log back in, your saved items will all be displayed on this page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clicking `Check` will tell *Window Shoppin'* to access the site where you found your item and assess whether there has been a price change. If there is, you will see a new price in the "New Price" field.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clicking `Check All` will check all of your items for price changes at once.
 
-### `npm run eject`
+Clicking `Delete` will remove the item from Your Saved Items.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Clicking `View` will allow you to view the item on its own, and provide you with a few more options. You can add a note about the item, which will then display beneath the item description. You can also assign a personalized category to each item so you will be able to view all items belonging to that category. The category name you assign will appear beneath the item name.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+From the single item view page, clicking on `Show Me My Goods` will take you back to your dashboard.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+When you would like to log out of *Window Shoppin'*, simply click `Log Out` in the navigation bar at the top of the page. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Application works on many online shopping websites including Amazon, BestBuy, Kijiji, Ebay, Get Outside Shoes etc.
 
-## Learn More
+All app code is available at repository [https://github.com/keithyyy/WindowShoppin](https://github.com/keithyyy/WindowShoppin)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Code Splitting
+## Questions / Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+:boom:GitHub Profiles: 
 
-### Analyzing the Bundle Size
+Keith Crooc: [https://github.com/keithyyy](https://github.com/keithyyy)
+Eldar Humbatov: [https://github.com/elogonme](https://github.com/elogonme)
+Michael Torontow: [https://github.com/Torontow](https://github.com/Torontow)
+Lina Zughaiyer: [https://github.com/whataleen](https://github.com/whataleen)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+:email:Email: 
 
-### Making a Progressive Web App
+Keith Crooc: [keith.crooc@gmail.com](mailto:keith.crooc@gmail.com)
+Eldar Humbatov: [elogon@gmail.com](mailto:elogon@gmail.com)
+Michael Torontow: [mtorontow0@gmail.com](mailto:mtorontow0@gmail.com)
+Lina Zughaiyer: [linazughaiyer@hotmail.com](mailto:linazughaiyer@hotmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  
+![UofT](/public/images/uoft.jpg)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project #2 (featuring Eldar, Keith, Lina &amp; Michael), a project at UofT coding bootcamp.
